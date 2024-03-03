@@ -1071,6 +1071,10 @@ nav.header {
     width: 16rem;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:gap-12 {
     gap: 3rem;
   }
