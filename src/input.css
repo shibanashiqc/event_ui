@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.header {
+    border-bottom-width: 1px;
+    border-color: #e9eef5;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition-duration: .15s;
+    transition-duration: .25s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    width: 100%;
+    z-index: 20
+}
